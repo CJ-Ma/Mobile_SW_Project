@@ -1,0 +1,351 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
+
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+
+@font-face {
+	font-family: 'NanumBarunGothic';
+	src: url("../fonts/NanumBarunGothic.eot");
+	src: local(""), url("../fonts/NanumBarunGothic.woff") format("woff");
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	font-family: "NanumBarunGothic", sans-serif;
+	padding-top: 90px;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+#result_name, #tourism_serch, #serch_result_span2, #serch_result_span10, #des-title font{
+	font-family: 'Hanna', serif;
+}
+
+#tourism_name {
+	margin-left: -12px;	
+}
+
+#tourism_area {
+	background-color: #ffffff;
+	border-top: 12px solid #47a3a6;
+}
+
+#tourism_detailarea{
+	border-left: 1px solid #47a3a6;
+	border-right: 1px solid #47a3a6;
+}
+
+#tourism_col{
+	background-color: #47a3a6;
+}
+
+#border {
+	border-bottom: 2px solid #AAAAAA
+}
+
+#serch_result_span2 {
+	border-top: 2px solid #AAAAAA;
+	border-right: 2px solid #AAAAAA
+}
+
+#des_border1{
+	margin-left: 15px;
+	border-top: 1px solid #AAAAAA;
+}
+
+#result_menu1{
+	margin-left: -30px;
+}
+
+#result_name {
+	margin-left: -12px;
+}
+
+#test1{
+	padding-left: -50px;
+}
+
+#des-overview1,#des-overview2, #des-overview3,#des-overview4{
+	font-family: 'Nanum Pen Script', serif;
+}
+
+/* nav bar customize */
+.navbar {
+	background-color: #fff;
+	border: none;
+	padding-bottom: 10px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	height: 90px;
+	text-transform: capitalize;
+	border-bottom: 1px solid #AAAAAA
+}
+
+.navbar-brand img {
+	margin-top: -13px;
+}
+
+.navbar-toggle {
+	position: relative;
+	margin-top: 40px;
+	top: 2px;
+}
+
+.navbar-nav {
+	padding-right: 10px;
+	margin-top: 20px;
+	background-color: #fff
+}
+
+.navbar-nav li {
+	margin: 0 20px;
+}
+
+.navbar-brand {
+	padding-left: 20px;
+}
+
+.navbar-collapse {
+	padding-top: 10px;
+	background-color: #fff
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #FF8000
+}
+
+.navbar-default .navbar-nav>li.active>a, .navbar-default .navbar-nav>li.active>a:hover,
+	.navbar-default .navbar-nav>li.active>a:focus {
+	color: #FF8000;
+	background-color: #fff
+}
+
+.control {
+	position: inherit;
+	top: 50%;
+	z-index: 5;
+	display: inline-block;
+	right: 50%;
+}
+
+::-webkit-input-placeholder {
+	font-family: 'Hanna', serif;
+}
+:-moz-placeholder { /* older Firefox*/
+	font-family: 'Hanna', serif;
+}
+::-moz-placeholder { /* Firefox 19+ */ 
+	font-family: 'Hanna', serif;
+} 
+:-ms-input-placeholder { 
+	font-family: 'Hanna', serif;
+}	
+
+
+.item.active, .item {
+	width: 100%;
+	height: auto;
+}
+
+.table-hover {
+	font-family: 'Hanna', serif;
+}
+
+.table-hover th {
+	text-align: center;
+}
+
+.table-hover tbody tr:hover td {
+	background-color: #dedee0;
+}
+
+#carousel-1 {
+	padding-top: 28px;
+}
+
+#festival_2 {
+	padding-top: 56px;
+}
+
+#call-layout{
+	padding-left: 32px;
+}
+
+#festival-date,#festival-date2 {
+	font-weight: bold;
+	color: #e13a00;
+	margin-top: 0px;
+}
+
+#festival, #festival_2, #experience, #notice, #healing, #camping font {
+	font-family: 'Hanna', serif;
+}
+
+#agenda, #top-menu{
+	font-family: 'Hanna', serif;
+}
+
+#home_name, #phone_1, #phone_2, #phone_3, #Team_name{
+	font-family: 'Hanna', serif;
+}
+
+@media ( max-device-width : 320px) {
+	.navbar-brand img {
+		width: 80%;
+		height: auto;
+		margin-top: -100px
+	}
+	#festival,#festival_2 {
+		width: auto;
+	}
+	#experience-title1, #experience-title2, #experience-title3,
+		#experience-title4 {
+		display: block;
+		max-width: 220px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	#healing-title1, #healing-title2, #healing-title3, #healing-title4 {
+		display: block;
+		max-width: 220px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	#camping-title1, #camping-title2, #camping-title3, #camping-title4 {
+		display: block;
+		max-width: 220px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	
+	#des-title1, #des-title2, #des-title3, #des-title4 {
+		display: block;
+		max-width: 50px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+}
+
+@media ( max-device-width : 980px) {
+	.navbar-nav li {
+		margin: 0 10px;
+	}
+	#festival,#festival_2 {
+		width: auto;
+	}
+	#experience-title1, #experience-title2, #experience-title3,
+		#experience-title4 {
+		display: block;
+		max-width: 220px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	#healing-title1, #healing-title2, #healing-title3, #healing-title4 {
+		display: block;
+		max-width: 220px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	#camping-title1, #camping-title2, #camping-title3, #camping-title4 {
+		display: block;
+		max-width: 220px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	
+	#des-title1, #des-title2, #des-title3, #des-title4 {
+		display: block;
+		max-width: 50px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+}
+
+@media ( max-device-width : 1380px) {
+	#experience-title1, #experience-title2, #experience-title3,
+		#experience-title4 {
+		display: block;
+		max-width: 220px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	#healing-title1, #healing-title2, #healing-title3, #healing-title4 {
+		display: block;
+		max-width: 220px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	#camping-title1, #camping-title2, #camping-title3, #camping-title4 {
+		display: block;
+		max-width: 220px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	#des-title1, #des-title2, #des-title3, #des-title4 {
+		display: block;
+		max-width: 50px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+}
+
+@media ( max-device-width : 1920px) {
+	#experience-title1, #experience-title2, #experience-title3,
+		#experience-title4 {
+		display: block;
+		max-width: 220px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	#healing-title1, #healing-title2, #healing-title3, #healing-title4 {
+		display: block;
+		max-width: 220px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	#camping-title1, #camping-title2, #camping-title3, #camping-title4 {
+		display: block;
+		max-width: 220px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	#des-overview1,#des-overview2,#des-overview3,#des-overview4{
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		word-wrap:break-word;
+		max-width: 300px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	
+	#des-title1, #des-title2, #des-title3, #des-title4 {
+		display: block;
+		max-width: 220px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	
